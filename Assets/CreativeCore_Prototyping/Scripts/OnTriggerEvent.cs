@@ -49,7 +49,7 @@ public class OnTriggerEvent : MonoBehaviour
         if(exitEventCooldown > m_ExitTimer)
             return;
 
-        onTriggerEnterEvent.Invoke();
+        onTriggerExitEvent.Invoke();
         m_ExitHasBeenTriggered = true;
         m_ExitTimer = 0f;
     }
