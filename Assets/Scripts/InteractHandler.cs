@@ -45,7 +45,7 @@ public class InteractHandler : MonoBehaviour
         RaycastHit hit;
 
         bool displayInteractable = false;
-        if (Physics.Raycast(ray, out hit, 2.0f))
+        if (Physics.Raycast(ray, out hit, 10.0f))
         {
             var interacts = hit.collider.gameObject.GetComponentsInChildren<OnInteract>();
 
