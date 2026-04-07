@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: a5245c24a77253e44ae71aac7d41138c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305701
+  packageName: Mines and Cave Set
+  packageVersion: 1.0
+  assetPath: Assets/ThirdPartyPackages/LoafbrrAssets/MInesAndCaveSet/fbx/MinesSet.fbx
+  uploadId: 718441
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -36,8 +43,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -68,7 +73,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -78,6 +83,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -127,10 +135,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 305701
-  packageName: Mines and Cave Set
-  packageVersion: 1.0
-  assetPath: Assets/ThirdPartyPackages/LoafbrrAssets/MInesAndCaveSet/fbx/MinesSet.fbx
-  uploadId: 718441
